@@ -9,13 +9,14 @@ fontforge
 inkscape  
 python  
 
-#### Options:
+### Options:
+```
 --folder    takes folder path  
 --file      takes file path  
 --fast      skips simplification and optimization. [ optional, always last argument ]  
-
+```
 ### Usage:
-frames2font.sh --folder [ FOLDER_PATH ] --fast  
+`frames2font.sh --folder [ FOLDER_PATH ] --fast`  
 
 Files must be in .png  
 
