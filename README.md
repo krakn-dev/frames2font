@@ -11,12 +11,15 @@ python
 
 ### Options:
 ```
---folder    takes folder path  
---file      takes file path  
---fast      skips simplification and optimization. [ optional, always last argument ]  
+--folder    takes folder path.  
+--file      takes file path.  
+
+[ optional, these arguments always go last. ]   
+--fast      skips simplification and optimization.  
+--no-clean  does not remove svgs (useful to see number of nodes).  
 ```
 ### Usage:
-`frames2font.sh --folder [ FOLDER_PATH ] --fast`  
+`frames2font.sh --folder [ FOLDER_PATH ] --fast --no-clean`  
 
 Files must be in .png  
 

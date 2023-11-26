@@ -103,9 +103,13 @@ fi
 python svg2font.py
 
 # -----------------------
-# 4. clear
+# 4. clean
 # -----------------------
 
+if [[ $* == *--no-clean* ]] 
+then
+    exit 0
+fi
 rm -r tmp
 
 exit 0
